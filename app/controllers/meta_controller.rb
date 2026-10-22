@@ -21,6 +21,6 @@ class MetaController < ApplicationController
     @page_title = "Cookie policy"
     @crumb << { label: "About this website", url: meta_list_url }
     @crumb << { label: "Cookies", url: nil }
-    render "shared/markdown_page"
+    render 'library_design/meta/cookies'
   end
 end
