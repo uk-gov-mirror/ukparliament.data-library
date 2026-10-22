@@ -2,10 +2,11 @@
 <html lang="en-GB">
 	<head>
 		<%= render 'library_design/head/head' %>
+		<%= stylesheet_link_tag "application" %>
 	</head>
-<body>
-	<%= render '/layouts/header/header' %>
-	<%= render 'layouts/main' %>
-	<%= render 'library_design/footer/thin_footer' %>
-</body>
+	<body class="section-<%= @section %> subsection-<%= @subsection %> brand-bicameral">
+		<%= render 'layouts/header/header' %>
+		<%= render 'layouts/main' %>
+		<%= render 'library_design/footer/thin_footer' %>
+	</body>
 </html>
