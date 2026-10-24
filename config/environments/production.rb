@@ -4,7 +4,7 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Enable serving of images, stylesheets, and JavaScripts from an asset server.
-  config.asset_host = "https://data-library-portal-3414e75edea4.herokuapp.com/"
+  config.asset_host = "https://data-library-portal-staging-aa0641dc469a.herokuapp.com/"
 
   # Code is not reloaded between requests.
   config.enable_reloading = false
